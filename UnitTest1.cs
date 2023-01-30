@@ -6,6 +6,7 @@ namespace LoginTests
     public class UnitTest1
     {
         [Fact]
+        // element availability
         public void PageElementAvailable()
         {
             ChromeDriver driver = new ChromeDriver();
